@@ -1,0 +1,32 @@
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.user-card {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 15px !important;
+  padding: 15px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2) !important;
+}
+
+mat-card-title {
+  color: #3f51b5;
+  font-size: 22px;
+  margin-bottom: 20px !important;
+  text-align: center;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.btn-save {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+}

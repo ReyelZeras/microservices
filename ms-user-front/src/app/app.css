@@ -1,0 +1,22 @@
+.nav-toolbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1976d2 !important;
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px;
+}
+
+.active-link {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border-bottom: 3px solid white;
+  border-radius: 0;
+}
+
+.main-container {
+  padding: 40px 20px;
+  background-color: #f0f2f5;
+  min-height: calc(100vh - 64px);
+}
